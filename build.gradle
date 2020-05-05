@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'org.springframework.boot' version '2.2.6.RELEASE'
 }
 
 group 'org.example'
@@ -10,5 +11,6 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.springframework.boot:spring-boot-starter-thymeleaf:2.2.6.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-web:2.2.6.RELEASE'
 }
